@@ -11,7 +11,7 @@ function Layout({nickName, avatarUrl, id, children}) {
                     id={id}
                 />
             </div>
-            <div className='layoutBody'>children</div>
+            <div className='layoutBody'>{children}</div>
         </div>
     )
 }
